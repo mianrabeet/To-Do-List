@@ -61,7 +61,7 @@ html,body{
 .add-button:hover{
     background-color: burlywood;
 }
-@media screen and (max-width:360px) {
+@media screen and (min-width:350px) and (   max-width:417px){
     .to-do-container{
     background-color: rgb(23, 206, 200);
     height: 50vh;
