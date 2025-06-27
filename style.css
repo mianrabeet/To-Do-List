@@ -76,6 +76,7 @@ html,body{
 .child{
     position: absolute;
     top: 8%;
+    text-align: center;
 }
 .input-container{
     position: absolute ;
@@ -89,10 +90,14 @@ html,body{
     outline: none;
     border-radius: 7px;
     height: 6vh;
-    max-width: 50%;
+    max-width: 40%;
     overflow: visible;
     color: rgb(65, 128, 153);
+    margin-bottom: 20px;
 }
+
+   
+
 .add-button{
     padding: 10px;
     background-color: aquamarine;
@@ -188,6 +193,7 @@ html,body{
     background-color: aqua;
     transform: scale(1.1);
 }
+
 .add-button{
     padding: 10px;
     background-color: aquamarine;
@@ -281,6 +287,9 @@ html,body{
     max-width: 350px;  
     overflow: visible;
     color: rgb(65, 128, 153);
+}
+.yu{
+    display: inline ;
 }
 .add-button{
     padding: 10px;
