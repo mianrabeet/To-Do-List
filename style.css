@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    background: linear-gradient(130deg, #c0fdfbff,#fee9e1ff,#b09e99ff);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+.heading{
+    text-align: center;
+    margin:  40px auto;
+}
+.to-do-container{
+    background-color: rgb(23, 206, 200);
+    margin: auto;
+    height: 50vh;
+    width: 40%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    border-radius: 30px;
+
+}
+.child{
+    position: absolute;
+    top: 8%;
+}
+.input-container{
+    position: absolute ;
+    padding-top: 30px;
+}
+.input{
+    background-color: rgb(204, 190, 184);
+    border: 1px solid #c0fdfbff;
+    outline: none;
+    border-radius: 7px;
+    height: 6vh;
+    width: 300px;
+    color: rgb(65, 128, 153);
+    transition-duration: 2s;
+}
+.input:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}
+.add-button{
+    padding: 10px;
+    background-color: aquamarine;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+    margin: auto auto auto 20px ;
+    transition-duration: 1.5s;
+}
+.add-button:hover{
+    background-color: burlywood;
+}
+@media screen and (max-width:360px) {
+    .to-do-container{
+    background-color: rgb(23, 206, 200);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.child{
+    position: absolute;
+    top: 8%;
+}
+.input-container{
+    position: absolute ;
+    padding-top: 30px;
+    left: 10%;
+    width: 100%;
+}
+.input{
+    background-color: rgb(204, 190, 184);
+    border: 1px solid #c0fdfbff;
+    outline: none;
+    border-radius: 7px;
+    height: 6vh;
+    max-width: 50%;
+    overflow: visible;
+    color: rgb(65, 128, 153);
+}
+.add-button{
+    padding: 10px;
+    background-color: aquamarine;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+    margin: auto auto auto 20px ;
+    transition-duration: 1.5s;
+}
+.add-button:hover{
+    background-color: burlywood;
+}
+}
+@media screen and (max-width:480px) {
+    .to-do-container{
+    background-color: rgb(23, 206, 200);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.child{
+    position: absolute;
+    top: 8%;
+}
+.input-container{
+    position: absolute ;
+    padding-top: 30px;
+    width: 100%;
+}
+.input{
+    background-color: rgb(204, 190, 184);
+    border: 1px solid #c0fdfbff;
+    outline: none;
+    border-radius: 7px;
+    height: 6vh;
+    max-width: 70%;
+    overflow: visible;
+    color: rgb(65, 128, 153);
+}
+.add-button{
+    padding: 10px;
+    background-color: aquamarine;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+    margin: auto auto auto 20px ;
+    transition-duration: 1.5s;
+}
+.add-button:hover{
+    background-color: burlywood;
+}
+
+}
+@media screen and (max-width:768px) {
+    .to-do-container{
+    background-color: rgb(58, 228, 214);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.child{
+    position: absolute;
+    top: 8%;
+}
+.input-container{
+    position: absolute ;
+    padding-top: 30px;
+    width: 100%;
+    left: 0px;
+
+}
+.input{
+    background-color: rgb(204, 190, 184);
+    border: 1px solid #c0fdfbff;
+    outline: none;
+    border-radius: 7px;
+    height: 6vh;
+    max-width: 350px;  
+    overflow: visible;
+    color: rgb(65, 128, 153);
+}
+.input:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}
+.add-button{
+    padding: 10px;
+    background-color: aquamarine;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+    margin: auto auto auto 20px ;
+    transition-duration: 1.5s;
+}
+.add-button:hover{
+    background-color: burlywood;
+}
+
+}
+@media screen and (max-width:1025px) {
+    .to-do-container{
+    background-color: rgb(58, 228, 214);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.child{
+    position: absolute;
+    top: 8%;
+}
+.input-container{
+    position: absolute ;
+    padding-top: 30px;
+    width: 100%;
+    left: 0px;
+
+}
+.input{
+    background-color: rgb(204, 190, 184);
+    border: 1px solid #c0fdfbff;
+    outline: none;
+    border-radius: 7px;
+    height: 6vh;
+    max-width: 350px;  
+    overflow: visible;
+    color: rgb(65, 128, 153);
+}
+.add-button{
+    padding: 10px;
+    background-color: aquamarine;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+    margin: auto auto auto 20px ;
+    transition-duration: 1.5s;
+}
+.add-button:hover{
+    background-color: burlywood;
+}
+
+}
+@media screen and (max-width:1441px) {
+    .to-do-container{
+    background-color: rgb(58, 228, 214);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.child{
+    position: absolute;
+    top: 8%;
+}
+.input-container{
+    position: absolute ;
+    padding-top: 30px;
+    width: 100%;
+    left: 0px;
+
+}
+.input{
+    background-color: rgb(204, 190, 184);
+    border: 1px solid #c0fdfbff;
+    outline: none;
+    border-radius: 7px;
+    height: 6vh;
+    max-width: 350px;  
+    overflow: visible;
+    color: rgb(65, 128, 153);
+}
+.add-button{
+    padding: 10px;
+    background-color: aquamarine;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+    margin: auto auto auto 20px ;
+    transition-duration: 1.5s;
+}
+.add-button:hover{
+    background-color: burlywood;
+}
+
+}
+
